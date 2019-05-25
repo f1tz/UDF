@@ -1,4 +1,4 @@
-# MySQL UDF 提权插件
+# MySQL UDF 提权
 
 > 尝试UDF提权之前，先确保MySQL有读写文件的权限
 
