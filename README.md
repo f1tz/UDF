@@ -50,6 +50,6 @@ SELECT sys_eval ('whoami'); # 执行命令
 
 ```SQL
 
-SELECT shell('cmd','whoami')
+SELECT shell('cmd','whoami');
 
 ```
