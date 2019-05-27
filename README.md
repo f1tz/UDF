@@ -13,6 +13,10 @@ SHOW VARIABLES LIKE 'secure_file_priv';
 
 > https://github.com/mysqludf/lib_mysqludf_sys
 
+编译语句
+
+> gcc -DMYSQL_DYNAMIC_PLUGIN -fPIC -Wall -I/usr/include/mysql -I. -shared lib_mysqludf_sys.c -o lib_mysqludf_sys.so
+
 udf.so.txt 是自己的编译的
 
 udf2.so.txt 来自网友编译
