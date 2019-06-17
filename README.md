@@ -5,7 +5,7 @@
 ```SQL
 SHOW VARIABLES LIKE 'sec%';
 # or
-SHOW VARIABLES LIKE 'secure_file_priv';
+SELECT @@secure_file_priv;
 ```
 如果查询到 secure_file_priv 的值为NULL，则不可以读写文件
 
